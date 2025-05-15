@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+* {
+    color: #808080;
+    background-color: #d3d3d3;
+}
+
+h1 {
+    color: #00008b;
+    background-color: hsl(180, 100%, 94%);
+}
+
+#main {
+    color: hsl(0, 100%, 27%);
+    background-color: #ffe4e1;
+}
+
+.nav {
+    color: #228b22;
+    background-color: #ffffe0;
+}
+
+.color-box{
+    color: #8b4513;
+    background-color: #fffacd;
+}
+
+body {
+    
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+.into{ 
+    color: rgb(47, 235, 235);
+}

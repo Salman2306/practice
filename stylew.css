@@ -1,0 +1,30 @@
+@font-face {
+    font-family: tage ;
+    src: url(./Tagesschrift-Regular.ttf);
+
+}
+.html{
+    font-family: tage;
+}
+button:hover {
+   color: blanchedalmond;
+background-color: blue;
+text-transform: uppercase;
+text-decoration: overline ;
+}.qaw:hover{
+    text-transform: capitalize;
+    color: chartreuse;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: xx-large;
+    font-style: italic;
+    font-display: initial;
+}
+p:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: xx-large;
+    font-style: italic;
+}
