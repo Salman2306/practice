@@ -23,10 +23,10 @@ body{
     color: rgb(238, 249, 247);
     font-family: 'Times New Roman', Times, serif;
     margin: 3px;
-    color: aliceblue;
-    display: inline-block;
-    margin: 32px;
-    margin-top: 10px;
+    color: rgb(173, 216, 253);
+    display:inline-block;
+    /* margin: 32px; */
+    /* margin-top: 10px; */
     list-style: none;
 
     
@@ -36,23 +36,23 @@ body{
     color: rgb(238, 249, 247);
     font-family: 'Times New Roman', Times, serif;
     margin: 3px;
-     display: inline-block;
+    display: inline-block;
     margin: 32px;
     margin-top: 10px;
     list-style: none;
+}
+.dp {
+display: block;
+position: absolute;
 
-    
 }
-.dropdown{
-    color: rgb(239, 13, 13);
-    display: none;
-    
-    
+.dp li{
+    margin: 0%;
 }
-.dropdownv:hover{
-    color: rgb(233, 217, 217);
-    
-}
+.dp:hover{
+    color: aqua;
+}  
+
 a:hover {
     background-color: blue;
     transform: all 3s scale(3) 0.5;
@@ -73,6 +73,17 @@ a:hover {
 input {
     width: 200px;
 }
+.sidebar{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+.sidebar div{
+    width: 50%;
+    background-color: brown;
+    justify-content: center;
+    justify-items: center;
+}
 
 .info {
     margin-top: 50px;
@@ -89,6 +100,7 @@ input {
   background-position: right;
   background-repeat: no-repeat;
   position: relative;
+  margin-top: 300px;
 }
 
 

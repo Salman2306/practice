@@ -1,0 +1,35 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+ul{
+    list-style: none;
+    background-color: black;
+    color: azure;
+    
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+ul li:hover{
+    background-color: rgb(53, 239, 20);
+}
+ul li:hover .downbar{
+    display: block;
+    position: absolute;
+    margin-left: -0.3cm;
+    margin-top: 0.3cm;
+    background-color: burlywood;
+}
+.downbar ul {
+    margin: 0%;
+    padding: 0%;
+} 
+.downbar ul li{
+    display: block;
+    
+    }
+.downbar{
+    display: none;
+}
