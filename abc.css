@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    /* padding: 0%; */
+}
+
+
+ul{
+    list-style: none;
+    background-color: black;
+    color: aliceblue;
+    padding-left: 350px;
+    
+    
+}
+ul li{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;   
+
+}
+ul li:hover{
+    background-color: rgb(88, 239, 18);
+    font-size: large;
+}
+    .downbar{
+       display: none;
+    }
+
+ul li:hover .downbar{
+    position:absolute;
+    display: block;
+    margin-top: 11px;
+    font-size: medium;
+    
+}
+.downbar ul{
+        padding: 0;
+        margin: 0%;
+               
+}
+ .downbar ul li{
+    display: block;
+    
+ }
+ .downskill {
+    display: none; 
+ }
+ul li:hover .downskill{
+    position: absolute;
+    display: block;
+    margin-top: 11px;
+}
+.downskill ul{
+    margin: 0%;
+    padding: 0%;
+}
+.downskill ul  li{
+    display: block;
+}
+.su-bdownskill{ display: none;
+
+}
+.downskill ul li:hover .su-bdownskill{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 155px;
+    display: block;
+}
+.su-bdownskill ul{
+    margin: 0%;
+    padding: 0%;
+}
+
+.sub-contact{
+    display: none;
+}
+ ul li:hover .sub-contact{
+    position: absolute;
+    display: block;
+    margin-top: 12px;
+    
+}
+.sub-contact ul{
+    padding: 0px;
+    margin: 0%;
+}
+.sub-contact ul li{
+    display: block;
+}
